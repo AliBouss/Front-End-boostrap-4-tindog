@@ -54,19 +54,33 @@
 
 .normal{
     background-color:skyblue;
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .tourne{
     background-color:pink;
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(45deg);
+}
+
+.align-horizontal{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    margin-top: 35px;
+}
+
+.bg{
+    width: 800px;
+    height: 600px;
 }
 
