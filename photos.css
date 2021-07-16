@@ -84,3 +84,32 @@ ul{
     height: 600px;
 }
 
+.carousel{
+    padding: 5% 15%;
+    background-color: aquamarine;
+}
+
+.carousel h2{
+    text-align: center;
+    font-size:3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.features-row{
+    text-align: center;
+    padding: 10% 10%;
+}
+
+.features-col{
+    margin: 15px 0;
+}
+
+.features-col h3{
+    margin: 25px 0;
+}
+
+.features-row .fas{
+    color:red;
+}
+
