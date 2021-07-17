@@ -1,3 +1,9 @@
+@media (max-width: 900px) {
+    h1{
+        color:teal;
+    }
+}
+
 .col{
     background-color:beige;
     border: 1px solid;
