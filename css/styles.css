@@ -89,6 +89,10 @@ body {
     position: absolute;
     right: 30%;
   }
+
+.col-img{
+    border-radius: 15px;
+}
   
   /* Features Section */
   
