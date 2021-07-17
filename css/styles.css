@@ -1,156 +1,173 @@
-body{
-    font-family:"Montserrat";
 
-}
-.container-fluid{
-    padding-left: 5%; 
-    padding-right: 5%;
-    padding-top: 5px;
-}
-
-#title{
-    background-color: #f0314e;
-    color: #fff;
-    height:70px;
-
-}
-
-h1{
-    font-family:"Montserrat-black";
-    font-size: 3.5rem;
-    line-height: 1.3;
-    font-weight:bold;
-}
-
-h2{
-    font-family: "Montserrat-Bold";
-    font-size: 3rem;
-    line-height: 1.3;
-
-}
-
-h3{
+body {
     font-family: "Montserrat";
-    font-weight: bold;
-}
-
-.featurs-box p {
-    color:grey;
-}
-
-/* Navigation bar */
-
-.navbar{
-    padding: 0 0 4.5rem;
-}
-
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.nav-item{
-    padding: 0 18px;
-}
-
-/* title */
-
-.title-col{
-    padding: 7% 15% 7%;
-    right: 15px;
     text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
     background-color: #ff4c68;
     color: #fff;
+  }
   
-}
-
-/* Download Button */
-
-.download-button{
-    margin-top: 22px;
-}
-
-/* Title image */
-.title-image{
+  .white-section {
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  
+  /* Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
     width: 60%;
-    transform:rotate(25deg);
+    transform: rotate(25deg);
     position: absolute;
     right: 30%;
-}
-
-.fas{
+  }
+  
+  /* Features Section */
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
     color: #ef8172;
     margin-bottom: 1rem;
-   
-}
-
-
-/* features section */
-
-#features{
-    
-    padding: 5% 15%;
-    background-color: white;
-    position: relative;
-
-}
-.featurs-box{
-    text-align:center;
-    padding: 5%;
-}
-
-.fas:hover{
-    color:#ff4c68;
-}
-
-/* testimonials section */
-#testimonials{
-    
-    text-align: center;
-    background-color:#ef8172;
-    color: white;
-}
-
-.testimonial-image{
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    background-color: #ef8172;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-}
-
-.carousel-item{
-    padding: 5% 15%; 
-}
-
-#press{
-    background-color:#ef8172;
-    text-align: center;
+  }
+  
+  
+  #press {
+    background-color: #ef8172;
     padding-bottom: 3%;
-}
-
-.press-logo{
+  }
+  
+  .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
-
-}
-
-/* Pricing section */
-
-#pricing{
-    text-align: center;
+  }
+  
+  /* Pricing Section */
+  
+  #pricing {
     padding: 100px;
-}
-
-.pricing-col{
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
     padding: 3% 2%;
-}
-
-#pricing h2{
-    font-family: "Montserrat-Bold";
-}
-
-@media (max-width: 1028px) {
-
+  }
+  
+  /* CTA Section */
+  
+  
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
     #title {
       text-align: center;
     }
